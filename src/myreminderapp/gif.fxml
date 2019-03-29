@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="700.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="myreminderapp.gifController">
+   <children>
+      <ImageView fitHeight="128.0" fitWidth="128.0" layoutX="285.0" layoutY="178.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@blue.gif" />
+         </image>
+      </ImageView>
+      <Label layoutX="194.0" layoutY="55.0" prefHeight="63.0" prefWidth="312.0" text="My Reminding Assistant" textFill="#1a476b">
+         <font>
+            <Font name="Britannic Bold" size="29.0" />
+         </font>
+      </Label>
+      <JFXButton layoutX="251.0" layoutY="336.0" onAction="#action_tap" prefHeight="25.0" prefWidth="204.0" text="Tap to continue" textFill="#2e609e">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </JFXButton>
+   </children>
+</AnchorPane>
